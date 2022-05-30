@@ -6,7 +6,7 @@ phases:
       docker: 18
     commands:                                                                 
       - make install
-  build:
+  testing & linting:
     commands:
       - make lint
       - make test
